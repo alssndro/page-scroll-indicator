@@ -26,9 +26,10 @@ PageScrollIndicator.createProgressBar = function(progressBarLocation, contentToT
   window.onscroll = function(event) {
     var pageHeight = window.innerHeight;
     var container = document.getElementById(contentToTrack);
-    var adjHeight = container.clientHeight - pageHeight;
 
-    var progress = ((window.pageYOffset / adjHeight) * 100);
+    var adjustedHeight = container.clientHeight - pageHeight;
+
+    var progress = ((window.pageYOffset / adjustedHeight) * 100);
 
     progressBarElement.style.width = progress + "%";
   }
