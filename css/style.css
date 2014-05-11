@@ -14,10 +14,10 @@
  ========================================================================== */
 
 html {
-  color: #222;
-  font-size: 1.125em;
+  color: #555555;
+  font-size: 1.25em;
   line-height: 1.5;
-  background-color: #fefefe;
+  background-color: #FFFAEC;
 }
 
 /*
@@ -96,24 +96,49 @@ textarea {
  ========================================================================== */
 
 h1, h2, h3, h4 {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Vollkorn', 'Cabin', sans-serif;
   margin: 0;
+  font-weight: normal;
 }
 
 h1 {
-  font-size: 1.61em;
-  margin: 0 0 1.863354037em 0;
-  line-height: 1.863354037;
+  font-size: 2.618em;
+  margin: 0 0 0.571015265em 0;
+  line-height: 1.145956683;
+}
+
+.chapter-name {
+  margin-bottom: 0;
+}
+
+.chapter-no {
+  font-size: 1em;
+  margin: 0 0 3em 0;
+  line-height: 1.5;
+  color: #9E9E9E;
 }
 
 p {
   font-family: 'Vollkorn', serif;
   margin: 0 0 1.5em 0;
-  color: #444444;
 }
 
 #main {
-  padding: 3em 30%;
+  padding: 6em 10%;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+@media(min-width: 700px) {
+  #main {
+    padding: 6em 20%;
+  }
+}
+
+@media(min-width: 1300px) {
+  #main {
+    padding: 6em 25%;
+  }
 }
 
 #progress-cont {
@@ -123,13 +148,11 @@ p {
   top: 0px;
   left: 0px;
   text-align: center;
-  color: #aaaaaa;
-  font-size: 14px;
 }
 
 #progress-bar {
   height: 100%;
-  background-color: #004A94;
+  background-color: #374884;
 }
 
 
