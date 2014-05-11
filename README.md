@@ -9,13 +9,13 @@ Download either the [vanilla JS](js/vanilla/page_scroll_indicator.js) or [jQuery
 
 Then in your JS, pass the element ID of the div you'd like to attach the progress bar to, and the element whose scroll you would like to track progress of:
 
-``
+```
   // Vanilla JS
   PageScrollIndicator.createProgressBar("container", "main");
   
   //jQuery
   PageScrollIndicator.createProgressBar("#container", "#main");
-``
+```
 
 ## Styling The Progress Bar
 
