@@ -3,7 +3,7 @@
 An simple JS plugin to fix a small progress bar to the top of a page that
 tracks how far the user has scrolled vertically.
 
-![](page_scroll_preview.png)
+![](preview.png)
 
 ## How To Use
 
