@@ -3,6 +3,8 @@
 An simple JS plugin to fix a small progress bar to the top of a page that
 tracks how far the user has scrolled vertically.
 
+You can see the plugin in action [here.](http://alssndro.github.io/page-scroll-indicator/jquery-example.html)
+
 ![](preview.png)
 
 ## How To Use
