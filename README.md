@@ -1,7 +1,9 @@
 # Page Scroll Indicator
 
-An simple JS plugin to display a small, fixed progress bar on the page that
-tracks how far the user has scrolled on a page.
+An simple JS plugin to fix a small progress bar to the top of a page that
+tracks how far the user has scrolled vertically.
+
+![](page_scroll_preview.png)
 
 ## How To Use
 
