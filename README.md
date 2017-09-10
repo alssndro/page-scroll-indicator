@@ -23,4 +23,4 @@ Then in your JS, pass the element ID of the div you'd like to attach the progres
 
 ## Styling The Progress Bar
 
-Apply your CSS to the `#progess-cont` and `#progress-bar` elements.
+Apply your CSS to the `#progress-cont` and `#progress-bar` elements.
